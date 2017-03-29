@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EA14981E8B3E1400A8282F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14971E8B3E1400A8282F /* main.m */; };
+		04EA149B1E8B3E1400A8282F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA149A1E8B3E1400A8282F /* AppDelegate.m */; };
+		04EA149E1E8B3E1400A8282F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA149D1E8B3E1400A8282F /* ViewController.m */; };
+		04EA14A11E8B3E1400A8282F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA149F1E8B3E1400A8282F /* Main.storyboard */; };
+		04EA14A31E8B3E1400A8282F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EA14A21E8B3E1400A8282F /* Assets.xcassets */; };
+		04EA14A61E8B3E1400A8282F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EA14A41E8B3E1400A8282F /* LaunchScreen.storyboard */; };
+		04EA14B21E8B3E9100A8282F /* LLPayRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14B11E8B3E9100A8282F /* LLPayRoute.m */; };
+		04EA14B51E8B436B00A8282F /* PayRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14B41E8B436B00A8282F /* PayRoute.m */; };
+		04EA14B81E8B538C00A8282F /* MainTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14B71E8B538C00A8282F /* MainTabController.m */; };
+		04EA14BC1E8B53AC00A8282F /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14BA1E8B53AC00A8282F /* PaymentViewController.m */; };
+		04EA14BD1E8B53AC00A8282F /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA14BB1E8B53AC00A8282F /* PaymentViewController.xib */; };
+		04EA14BF1E8B664700A8282F /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EA14BE1E8B664700A8282F /* 111.png */; };
+		04EA14C51E8B6ADB00A8282F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04EA14C11E8B6ADB00A8282F /* LICENSE */; };
+		04EA14C61E8B6ADB00A8282F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14C31E8B6ADB00A8282F /* MBProgressHUD.m */; };
+		04EA14C71E8B6ADB00A8282F /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 04EA14C41E8B6ADB00A8282F /* README.mdown */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EA14931E8B3E1400A8282F /* PayTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EA14971E8B3E1400A8282F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EA14991E8B3E1400A8282F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04EA149A1E8B3E1400A8282F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04EA149C1E8B3E1400A8282F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04EA149D1E8B3E1400A8282F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04EA14A01E8B3E1400A8282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EA14A21E8B3E1400A8282F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EA14A51E8B3E1400A8282F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EA14A71E8B3E1400A8282F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA14B01E8B3E9100A8282F /* LLPayRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPayRoute.h; sourceTree = "<group>"; };
+		04EA14B11E8B3E9100A8282F /* LLPayRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPayRoute.m; sourceTree = "<group>"; };
+		04EA14B31E8B436B00A8282F /* PayRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayRoute.h; sourceTree = "<group>"; };
+		04EA14B41E8B436B00A8282F /* PayRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayRoute.m; sourceTree = "<group>"; };
+		04EA14B61E8B538C00A8282F /* MainTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabController.h; sourceTree = "<group>"; };
+		04EA14B71E8B538C00A8282F /* MainTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabController.m; sourceTree = "<group>"; };
+		04EA14B91E8B53AC00A8282F /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		04EA14BA1E8B53AC00A8282F /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		04EA14BB1E8B53AC00A8282F /* PaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
+		04EA14BE1E8B664700A8282F /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		04EA14C11E8B6ADB00A8282F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04EA14C21E8B6ADB00A8282F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		04EA14C31E8B6ADB00A8282F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		04EA14C41E8B6ADB00A8282F /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EA14901E8B3E1400A8282F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EA148A1E8B3E1400A8282F = {
+			isa = PBXGroup;
+			children = (
+				04EA14C81E8B6AE100A8282F /* LLPayRoute */,
+				04EA14C01E8B6ADB00A8282F /* MBProgressHUD */,
+				04EA14951E8B3E1400A8282F /* PayTestDemo */,
+				04EA14941E8B3E1400A8282F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EA14941E8B3E1400A8282F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA14931E8B3E1400A8282F /* PayTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EA14951E8B3E1400A8282F /* PayTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04EA14991E8B3E1400A8282F /* AppDelegate.h */,
+				04EA149A1E8B3E1400A8282F /* AppDelegate.m */,
+				04EA149C1E8B3E1400A8282F /* ViewController.h */,
+				04EA149D1E8B3E1400A8282F /* ViewController.m */,
+				04EA14B61E8B538C00A8282F /* MainTabController.h */,
+				04EA14B71E8B538C00A8282F /* MainTabController.m */,
+				04EA14B91E8B53AC00A8282F /* PaymentViewController.h */,
+				04EA14BA1E8B53AC00A8282F /* PaymentViewController.m */,
+				04EA14BB1E8B53AC00A8282F /* PaymentViewController.xib */,
+				04EA149F1E8B3E1400A8282F /* Main.storyboard */,
+				04EA14BE1E8B664700A8282F /* 111.png */,
+				04EA14A21E8B3E1400A8282F /* Assets.xcassets */,
+				04EA14A41E8B3E1400A8282F /* LaunchScreen.storyboard */,
+				04EA14A71E8B3E1400A8282F /* Info.plist */,
+				04EA14961E8B3E1400A8282F /* Supporting Files */,
+			);
+			path = PayTestDemo;
+			sourceTree = "<group>";
+		};
+		04EA14961E8B3E1400A8282F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EA14971E8B3E1400A8282F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EA14C01E8B6ADB00A8282F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				04EA14C11E8B6ADB00A8282F /* LICENSE */,
+				04EA14C21E8B6ADB00A8282F /* MBProgressHUD.h */,
+				04EA14C31E8B6ADB00A8282F /* MBProgressHUD.m */,
+				04EA14C41E8B6ADB00A8282F /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		04EA14C81E8B6AE100A8282F /* LLPayRoute */ = {
+			isa = PBXGroup;
+			children = (
+				04EA14B01E8B3E9100A8282F /* LLPayRoute.h */,
+				04EA14B11E8B3E9100A8282F /* LLPayRoute.m */,
+				04EA14B31E8B436B00A8282F /* PayRoute.h */,
+				04EA14B41E8B436B00A8282F /* PayRoute.m */,
+			);
+			name = LLPayRoute;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EA14921E8B3E1400A8282F /* PayTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EA14AA1E8B3E1400A8282F /* Build configuration list for PBXNativeTarget "PayTestDemo" */;
+			buildPhases = (
+				04EA148F1E8B3E1400A8282F /* Sources */,
+				04EA14901E8B3E1400A8282F /* Frameworks */,
+				04EA14911E8B3E1400A8282F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayTestDemo;
+			productName = PayTestDemo;
+			productReference = 04EA14931E8B3E1400A8282F /* PayTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EA148B1E8B3E1400A8282F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					04EA14921E8B3E1400A8282F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 04EA148E1E8B3E1400A8282F /* Build configuration list for PBXProject "PayTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EA148A1E8B3E1400A8282F;
+			productRefGroup = 04EA14941E8B3E1400A8282F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EA14921E8B3E1400A8282F /* PayTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EA14911E8B3E1400A8282F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA14C51E8B6ADB00A8282F /* LICENSE in Resources */,
+				04EA14A61E8B3E1400A8282F /* LaunchScreen.storyboard in Resources */,
+				04EA14A31E8B3E1400A8282F /* Assets.xcassets in Resources */,
+				04EA14A11E8B3E1400A8282F /* Main.storyboard in Resources */,
+				04EA14BD1E8B53AC00A8282F /* PaymentViewController.xib in Resources */,
+				04EA14BF1E8B664700A8282F /* 111.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EA148F1E8B3E1400A8282F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EA14C71E8B6ADB00A8282F /* README.mdown in Sources */,
+				04EA14B81E8B538C00A8282F /* MainTabController.m in Sources */,
+				04EA14B21E8B3E9100A8282F /* LLPayRoute.m in Sources */,
+				04EA149E1E8B3E1400A8282F /* ViewController.m in Sources */,
+				04EA149B1E8B3E1400A8282F /* AppDelegate.m in Sources */,
+				04EA14981E8B3E1400A8282F /* main.m in Sources */,
+				04EA14BC1E8B53AC00A8282F /* PaymentViewController.m in Sources */,
+				04EA14B51E8B436B00A8282F /* PayRoute.m in Sources */,
+				04EA14C61E8B6ADB00A8282F /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04EA149F1E8B3E1400A8282F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA14A01E8B3E1400A8282F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EA14A41E8B3E1400A8282F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EA14A51E8B3E1400A8282F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EA14A81E8B3E1400A8282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EA14A91E8B3E1400A8282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EA14AB1E8B3E1400A8282F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.52nbuy.PayTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EA14AC1E8B3E1400A8282F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.52nbuy.PayTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EA148E1E8B3E1400A8282F /* Build configuration list for PBXProject "PayTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA14A81E8B3E1400A8282F /* Debug */,
+				04EA14A91E8B3E1400A8282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EA14AA1E8B3E1400A8282F /* Build configuration list for PBXNativeTarget "PayTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EA14AB1E8B3E1400A8282F /* Debug */,
+				04EA14AC1E8B3E1400A8282F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EA148B1E8B3E1400A8282F /* Project object */;
+}
