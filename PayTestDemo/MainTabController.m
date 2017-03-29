@@ -20,10 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSArray *name = @[@"首页",@"好友",@"账号"];
     NSMutableArray *navArray = [NSMutableArray array];
     for (int i =0 ; i < 3 ; i ++) {
         UIViewController *vc = [UIViewController new];
-        vc.title = [NSString stringWithFormat:@"我是第%d个控制器",i];
+        vc.title = name[i];
         vc.view.backgroundColor = [UIColor whiteColor];
         UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
         [navArray addObject:nav];
